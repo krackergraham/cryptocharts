@@ -1,0 +1,33 @@
+{
+  "name": "charts",
+  "version": "1.0.0",
+  "description": "Nuxt.js project",
+  "author": "Graham Cooper <graham@pilotlab.com>",
+  "private": true,
+  "config": {
+    "nuxt": {
+      "port": "3333"
+    }
+  },
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "axios": "^0.17.1",
+    "chart.js": "^2.7.1",
+    "nuxt": "^1.0.0",
+    "vue-chartjs": "^3.1.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "eslint": "^4.15.0",
+    "eslint-friendly-formatter": "^3.0.0",
+    "eslint-loader": "^1.7.1",
+    "eslint-plugin-vue": "^4.0.0"
+  }
+}
